@@ -26,9 +26,7 @@ const app = createApp(App)
 app.use(VueSwappableCard).mount('#app')
 
 // Locally
-import {
-  VueSwappableCard,
-} from '@dafcoe/vue-swappable-card'
+import { VueSwappableCard } from '@dafcoe/vue-swappable-card'
 ```
 
 Import default styles (optional - you can define your own styling):
@@ -66,7 +64,7 @@ By default, the swap direction is from bottom to top. You can use "from-top", "f
 #### Event
 By default, the card swaps when overing it. You can use "over" or "click" on `event` prop:
 ```html
-<vue-swappable-card direction="over|click">
+<vue-swappable-card event="over|click">
     ...
 </vue-wappable-card>
 ```
