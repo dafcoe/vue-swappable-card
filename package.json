@@ -1,6 +1,6 @@
 {
   "name": "@dafcoe/vue-swappable-card",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Swappable Card Component Using Vue3",
   "keywords": [
     "swappable card",
@@ -62,4 +62,3 @@
   },
   "private": false
 }
-
