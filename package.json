@@ -11,7 +11,7 @@
     "javascript",
     "typescript"
   ],
-  "homepage": "https://github.com/dafcoe/vue-swappable-card",
+  "homepage": "https://dafcoe.github.io/vue-swappable-card",
   "bugs": {
     "url": "https://github.com/dafcoe/vue-swappable-card/issues",
     "email": "dafcoe+vsc@gmail.com"
@@ -34,7 +34,7 @@
   },
   "scripts": {
     "build:dev": "vue-cli-service serve",
-    "build:prod": "vue-cli-service build",
+    "build:prod": "vue-cli-service build --dest docs",
     "build:lib": "rm -rf dist && vue-cli-service build --target lib --name vue-swappable-card ./src/install.js && rm dist/demo.html",
     "lint": "vue-cli-service lint"
   },
