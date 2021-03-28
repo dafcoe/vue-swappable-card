@@ -37,7 +37,9 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const isSwapped = ref(props.swapped)
+    const eventSwapped = ref(props.swapped)
+
+    const isSwapped = computed(() => props.swapped || eventSwapped.value)
 
     const swapDirection = computed(() => {
       const validDirections = ['from-top', 'from-right', 'from-bottom', 'from-left']
@@ -63,7 +65,7 @@ export default defineComponent({
     }))
 
     const swap = () => {
-      isSwapped.value = !isSwapped.value
+      eventSwapped.value = !eventSwapped.value
     }
 
     return {
@@ -90,12 +92,14 @@ export default defineComponent({
     transition: all .3s ease-in-out;
 
     &:hover {
-      box-shadow: #eee 0 0 32px 0;
+      box-shadow: #eee 0 0 12px 0;
     }
 
     &__content {
       height: 100%;
       width: 100%;
+      background-color: white;
+      color: #333;
 
       &--primary {
         opacity: 1;

@@ -1,11 +1,13 @@
 ![@dafcoe/vue-swappable-card sample](https://github.com/dafcoe/vue-swappable-card/blob/main/src/assets/images/sample.gif?raw=true)
 
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/@dafcoe/vue-swappable-card)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/@dafcoe/vue-swappable-card?style=flat-square)
 ![npm](https://img.shields.io/npm/dt/@dafcoe/vue-swappable-card?style=flat-square)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/dafcoe/vue-swappable-card?style=flat-square)
 
 # @dafcoe/vue-swappable-card
 Easy to use, customisable swappable card library built using Vue3.
+<br>
+See it action on [demo](https://dafcoe.github.io/vue-swappable-card) page.
 
 ## Installation
 Install the package as a project dependency using `yarn` or `npm`:
@@ -76,6 +78,8 @@ By default, the primary content / front face is shown as main content/face. You 
     ...
 </vue-wappable-card>
 ```
+
+Please check the [demo](https://dafcoe.github.io/vue-swappable-card) page to easily see options in action.
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT) © [Daf Coe](mailto:dafcoe@gmail.com)
