@@ -1,4 +1,4 @@
-![@dafcoe/vue-swappable-card sample](https://github.com/dafcoe/vue-swappable-card/blob/main/src/assets/images/sample.gif?raw=true)
+[![@dafcoe/vue-swappable-card sample](https://github.com/dafcoe/vue-swappable-card/blob/main/src/assets/images/sample.gif?raw=true)](https://dafcoe.github.io/vue-swappable-card)
 
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@dafcoe/vue-swappable-card?style=flat-square)
 ![npm](https://img.shields.io/npm/dt/@dafcoe/vue-swappable-card?style=flat-square)
